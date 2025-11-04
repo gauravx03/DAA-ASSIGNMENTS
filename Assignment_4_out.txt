@@ -1,0 +1,30 @@
+=== Smart Traffic Management for Emergency Vehicles ===
+Enter number of intersections (nodes) and roads (edges): 6 7
+
+Enter road details (start end travelTime in minutes):
+0 1 4
+0 2 2
+1 2 1
+1 3 5
+2 3 8
+2 4 10
+3 5 6
+
+Enter ambulance starting location (source node): 0
+Enter number of hospitals: 2
+Enter hospital node indices:
+4
+5
+
+Calculating shortest paths...
+
+================= Emergency Route =================
+Ambulance Start: 0
+Hospitals: [ 4 5 ]
+Nearest Hospital: 4 (Time: 12.00 mins)
+Shortest Path: 0 -> 2 -> 4
+Execution Time: 0.013 ms
+===================================================
+
+
+=== Code Execution Successful ==
