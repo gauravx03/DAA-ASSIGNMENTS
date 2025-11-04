@@ -1,0 +1,40 @@
+--- Greedy Coloring Results ---
+Exam Slots (Colors Assigned): 0 1 2 0 1 0 
+Total Exam Slots Required: 3
+Execution Time: 0.007 ms
+
+--- Welsh–Powell Coloring Results ---
+Exam Slots (Colors Assigned): 1 0 2 1 0 1 
+Total Exam Slots Required: 3
+Execution Time: 0.012 ms
+
+--- DSATUR Coloring Results ---
+Exam Slots (Colors Assigned): 1 0 2 1 0 1 
+Total Exam Slots Required: 3
+Execution Time: 0.015 ms
+
+=== Room Allocation per Exam Slot ===
+
+Exam Slot 0:
+  Room 1 -> Course 1 (50 students)
+  Room 2 -> Course 4 (90 students)
+
+Exam Slot 1:
+  Room 1 -> Course 0 (80 students)
+  Room 2 -> Course 3 (60 students)
+  Room 2 -> Course 5 (30 students)
+
+Exam Slot 2:
+  Room 1 -> Course 2 (40 students)
+
+============================================================
+Performance Summary:
+Greedy Time: 0.007 ms (3 slots)
+Welsh–Powell Time: 0.012 ms (3 slots)
+DSATUR Time: 0.015 ms (3 slots)
+============================================================
+Code Execution Successful ✅
+============================================================
+
+
+=== Code Execution Successful ===
