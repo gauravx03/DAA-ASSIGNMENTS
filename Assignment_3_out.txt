@@ -1,0 +1,38 @@
+=== Emergency Relief Supply Loading ===
+Enter number of relief items: 3
+
+Enter details for each item:
+
+Item #1 name: Packets
+Weight (kg): 50
+Utility value: 100
+Divisible (1 for Yes, 0 for No): 0
+
+Item #2 name: Water 
+Weight (kg): 30
+Utility value: 70
+Divisible (1 for Yes, 0 for No): 1
+
+Item #3 name: Kit
+Weight (kg): 150
+Utility value: 200
+Divisible (1 for Yes, 0 for No): 1
+
+Enter boat capacity (kg): 240
+
+================= Selected Items for Transport =================
+Item           Weight(kg)     Value          Taken(kg)      
+----------------------------------------------------------------
+Water          30             70             30             
+Packets        50             100            50             
+Kit            150            200            150            
+----------------------------------------------------------------
+Total Weight Loaded: 230.00 kg
+Maximum Utility Value: 370.00
+================================================================
+
+Execution Time: 0.115 ms
+================================================================
+
+
+=== Code Execution Successful =
