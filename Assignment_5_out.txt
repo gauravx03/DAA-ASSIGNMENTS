@@ -1,0 +1,22 @@
+=== SwiftCargo Multistage Optimal Delivery System ===
+Enter number of nodes in multistage graph: 6
+Enter number of edges: 7
+Enter edges as: from to cost
+0 1 2
+0 2 4
+1 3 7
+1 4 3
+2 4 2
+3 5 1
+4 5 5
+Enter source node: 0
+Enter destination node: 5
+
+--- Optimal Delivery Route ---
+Path: 0 -> 1 -> 3 -> 5
+Total Delivery Cost: 10.000
+Execution Time: 0.041140 ms
+=====================================================
+
+
+=== Code Execution Successful ===
