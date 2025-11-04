@@ -1,0 +1,84 @@
+=== Disaster Relief Resource Allocation ===
+Enter number of relief items: 5
+Enter truck capacity (kg): 50
+
+Enter details for each item:
+Item 1 name: Food
+Weight (kg): 10
+Utility value: 60
+Item 2 name: Medicine 
+Weight (kg): 20
+
+Utility value: 100
+Item 3 name: Water
+Weight (kg): 30
+Utility value: 120
+Item 4 name: Blanket 
+Weight (kg): 15
+Utility value: 70
+Item 5 name: Tent 
+Weight (kg): 25
+Utility value: 90
+
+--- Brute Force Approach ---
+Max Utility: 230
+Execution Time: 0.001 ms
+
+--- Dynamic Programming Approach ---
+Max Utility (DP): 230
+Execution Time: 0.027 ms
+Optimal Set of Items (DP):
+- Blanket | Weight: 15 | Utility: 70
+- Medicine | Weight: 20 | Utility: 100
+- Food | Weight: 10 | Utility: 60
+
+--- Greedy Approximation Approach ---
+Approx Utility (Greedy): 230.000
+Execution Time: 0.009 ms
+Selected Items (Greedy):
+- Food | Weight: 10 | Utility: 60
+- Medicine | Weight: 20 | Utility: 100
+- Water | Weight: 30 | Utility: 120
+
+=== Multi-Truck Allocation Simulation ===
+
+Truck 1 (Capacity: 200 kg)
+Optimal Set of Items (DP):
+- Tent | Weight: 25 | Utility: 90
+- Blanket | Weight: 15 | Utility: 70
+- Water | Weight: 30 | Utility: 120
+- Medicine | Weight: 20 | Utility: 100
+- Food | Weight: 10 | Utility: 60
+Total Utility for Truck 1: 440
+
+Truck 2 (Capacity: 220 kg)
+Optimal Set of Items (DP):
+- Tent | Weight: 25 | Utility: 90
+- Blanket | Weight: 15 | Utility: 70
+- Water | Weight: 30 | Utility: 120
+- Medicine | Weight: 20 | Utility: 100
+- Food | Weight: 10 | Utility: 60
+Total Utility for Truck 2: 440
+
+Truck 3 (Capacity: 240 kg)
+Optimal Set of Items (DP):
+- Tent | Weight: 25 | Utility: 90
+- Blanket | Weight: 15 | Utility: 70
+- Water | Weight: 30 | Utility: 120
+- Medicine | Weight: 20 | Utility: 100
+- Food | Weight: 10 | Utility: 60
+Total Utility for Truck 3: 440
+
+--- Performance Summary ---
+Brute Force Time: 0.001 ms
+Dynamic Programming Time: 0.027 ms
+Greedy Approximation Time: 0.009 ms
+
+============================================================
+Conclusion: Dynamic Programming gives optimal results efficiently,
+while Greedy provides near-optimal solutions in less time.
+Brute Force confirms correctness but is computationally expensive.
+============================================================
+
+
+=== Code Execution Successful ===
